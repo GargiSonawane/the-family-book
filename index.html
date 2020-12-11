@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Gargi's family book</title>
+    </head>
+    <body>
+        <h1>The Family book</h1>
+        <image id="Picture" src="https://tse1.mm.bing.net/th?id=OIP.-LvQpbPRdy5hItZYMSgCUgHaHa&pid=Api&P=0&w=300&h=300"></image>
+        <h3 id="boi">the family Book</h3>
+        <div></div>
+        <button onclick="move()">next page</button>
+        <script>
+            var images=["https://tse1.mm.bing.net/th?id=OIP.-LvQpbPRdy5hItZYMSgCUgHaHa&pid=Api&P=0&w=300&h=300",
+            , "https://lh3.googleusercontent.com/EDupATnZw6Zy4yL_kfq4uwrNVG3uctbEdOHBt4zDyNU66W9VoWFmbM00bjhnco0F0tpqAiIRDTt_B_vA2SUOndipl-ag1j4jfAVTHR6Ic0rlbWFAIuV3uCu1hpTGnTGHF2Zv4-p1UYbDezdtRriCR2My2d6qmDOsxZV6Hc2gpBxA6JwTyik3gLzJRqiq6iSFAZghrM2b73tkzQ2f5zSyTSXQezMCoPGeaKC0vsIQIotQx5bSqPrdQe9f5Ut4PsRw8HzNYflxiOORrlmzQvK_qLF3lZT6vLuftZTR40F3Q1Spu5qORbtFCBYhhTGGM3qKj5KYwq5SWTXLBgqVEF3WCqgqC0dYNdZUsW7kT-lTQ1efO5v2ybsJAZIP4UUXD1ncxf8ENFIm7qPNv0Rq8-7yp_NCyAlv7YIPGg_Knppu2am338U7fXXIH96BDPIupP_ONu6mx3QMn8VLcg1tTo5kz6hp_d030iCPUKUESPJiJEZEYsaew03HtzxX7fsmrPOn1XEIIf_bLWInnlsfYJ-HCtQ95bmXu1901I9_9UBLvxaXFfPuBrZDlJagd4GM3C1klLiretuIXpPtF1Jfj59mgN1AGjZs_nDwAze1NCpe9Xb2BIAkKwFYUm2Fw-jHhsYtOGQP2Ijxv_ENbzzidrJu37aIfyrgJe5RB3QzIPLbVD6QZiZKuDEuSZvBvW17isQ=w493-h657-no?authuser=0",
+            "https://lh3.googleusercontent.com/OFt7VUTUz1fyefX8zjlXPU87tZODfMshyHNSVGu3f5GLOG4gsPoroDFvFCarxrIoj0tb76Lc6ucqWnDumIj_49oRDO-wccZfud8Q2xAgzd48AmWES1Vmsf2WsJ2kYVLMP7hEgXF-YMbigsmTEpwSeJho-q-b1NuPK2Pfie02gwxM2P4ogYg-wMgg1bshpUcm_Z9zbtSCJH0Yb4tOmp0GSpStRvRUmDq5Zz5bAtoHn1Ju7FkC65RA_pUXvs0I2gIcnCyXrXSI7z54g9ZdUjuPi-_jTKvK6mFx5KHK8sBeAmkfL97Hv6UaQa5elknNxBAsgb-wCNIQQsLXwfaY1AQ9VgxGoAo6xKL2ybgKWt75vW7pBDhkOSIWkFMcp-VRmNRvSaE9pNM6LY9peGxNmcbfES3Sb78a3CXy2tYDGIqu7r3heulF5KYC2d1Ummfvq87Iday8xCtAGqjqpvzf7OwoA5KeH1bSFCwgQVMfWkffUUK4RuazcNuoCfpsLpAwGKJGq0m8Gg7xBpxPgeiJYnLYSy9T7SClRffnnct43ir9mQg-E16IUePrK8TU1QT6ayyldbgD_dZdkixFboURnKnLIQZDfP520abxVVAiyd22vCz1igid9Vjc5qgIDMAyyXBGD-d_DN4niXkZREzWi1bumeaOh4BCNTIAWavgnyZ01N7gZQkK_gGX4VGvS32LNeE=w493-h657-no?authuser=0",
+           "https://lh3.googleusercontent.com/_JeIVo0sIQhnjGTkRAJXWfC_su2oJRuMZTfrovbJXi1kF9WX-W685hGE4NGbZU_5TgC5aeLIJajs6CGznXJLzE8LThpOgaFeDhP_ZvZDR4OoUjpalKNmuiBO14Wwzpt03BkKpHp6AD_BPw57zjUZfsMieR_WnseYFGo65RN2n9JeaU8KmZEr2sH0D4v9R9dJwZNcVzusT1Gxe5Y5_SNQVNio8koRWwZY-4VGMUhD8NBOqWg8Z4HcimD_aNcTSCtrOT2uAOsaecrq0FdejCwEWBxROuv8EGpAdW8t-sF_qyjAAbOH_SeqMlgGaaaVd1CurTaj_zTz1OMXov6dKmOAtNpPmUnoHYzieSGQ2ZAe0i07ubd0ohkT-SITnWCejvJUKQY2cZffo81NS4kK6ugteagyl8vEcb06xTOvXZgWnVaUEU9nkcg9AbuGBA4pzTFfHMP6Mi2-b9q1VReK9swq5BsAAxyK6BcXkIZSa4EuwpbkJg3l9drlEmaXrv_JUMUPwM0QJGeFotOG4rJFt8OeWlIqhKUUqmwxP-Iy7m6-mwXk4yI12f8jGq3SZBmzf1VWiALTiRUzl937zTu9X6WaUjesRGBOjYruZoIcc_smDha8bjMia6FGMaCEMOaYRTjSMiIncyw2x4LZBckhL-se9sGi1p4Y61wNdE36UQImhvQ_QCmmg9CR5FQ1Q9bVjQk=w493-h657-no?authuser=0",
+           "https://lh3.googleusercontent.com/GXl6GbTqC-wQE_jGUSDnEZp-2g4Z6wctQ7CJZcpii7vlxTKJdSgx_NzlswGgfS1JcQ1hc_gJbkEENAKCkFsmnqdFS_VUcrEya9-Qdk1wcFHcaNoGi57zgGAAlT6GWz4zjeWChzH6zUInv_pAmClwQWn7R_sK-YeACz8oa4DwTOPNvCRgtuV2tXolBHY0UiFtelRw0kW8VWdBmz_ypdHFR_p3OydHrRhAHWmokF84LQOR0xUzKtR3PvVoWMHNhvgUfkbQ_3iGiO3Mtp2mEgE8_zTomUfgTnJUK6PxXQ7J4H3lKMVEdwvvjCnwye6xm_ZQb466n6elAESvz_LFzhUBc1FP6sq73PjrgRScD6t0JHEMI3lwg2_P49nUjOZf7xqE6oX32qZVoAvd6x1Ji2qHK9FAA_OrrNIp5jrZL7akLa6HecS1CqDpful6dhPxuNEs52cdF4DCjNVGELx7ogPKAIgqlrcGv7cv3c6mYj3a4quwxhXPNLOweeCuBoe0DBeGkLDm-mx9c3K1uFcpgBAGWlHAlgdts4qqoE9X-PcYwOtBk_UPT5Af9ZMr1cLvZyD9426e8RtcqkD1XSZN5A27ThnfzShAXkT3ecd9vstixZjKhl3XVTIbpbCpUfOfhJbwvL8_hMJqfZCFRMeKy01hjwpGjXSJ1HIZ3zZZWZ5SDRy3dtXOgIu8WkHE1o8iQmk=w992-h657-no?authuser=0" ]
+           var names=["The family book","Archit sonawane", "Gargi sonawane", "Chitra Sonawane","Kiran Sonawane"]
+
+           var i=1;
+           function move(){
+               document.getElementById("Picture").src=images[i];
+               document.getElementById("boi").innerHTML=names[i]
+               i++;
+               if(i == 5){
+                   i=0;
+               }
+           }
+        </script>
+    </body>
+</html>
