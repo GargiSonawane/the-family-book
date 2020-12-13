@@ -4,28 +4,30 @@
         <title>Gargi's family book</title>
     </head>
     <body>
-        <h1>The Family book</h1>
-        <image id="Picture" src="https://tse1.mm.bing.net/th?id=OIP.-LvQpbPRdy5hItZYMSgCUgHaHa&pid=Api&P=0&w=300&h=300"></image>
-        <h3 id="boi">the family Book</h3>
-        <div></div>
-        <button onclick="move()">next page</button>
-        <script>
-            var images=["https://tse1.mm.bing.net/th?id=OIP.-LvQpbPRdy5hItZYMSgCUgHaHa&pid=Api&P=0&w=300&h=300",
-            "Archit.jpg",
-            "Gargi.jpg",
-            "Chitra.jpg",
-            "Kiran.jpg" ]
-           var names=["The family book","Archit sonawane", "Gargi sonawane", "Chitra Sonawane","Kiran Sonawane"]
-
-           var i=1;
-           function move(){
-               document.getElementById("Picture").src=images[i];
-               document.getElementById("boi").innerHTML=names[i]
-               i++;
-               if(i == 5){
-                   i=0;
+        <center>
+            <h1>The Family book</h1>
+            <image id="Picture" src="https://tse1.mm.bing.net/th?id=OIP.-LvQpbPRdy5hItZYMSgCUgHaHa&pid=Api&P=0&w=300&h=300"></image>
+            <h3 id="boi">the family Book</h3>
+            <div></div>
+            <button onclick="move()">next page</button>
+            <script>
+                var images=["https://tse1.mm.bing.net/th?id=OIP.-LvQpbPRdy5hItZYMSgCUgHaHa&pid=Api&P=0&w=300&h=300",
+                "Archit.jpg",
+                "Gargi.jpg",
+                "Chitra.jpg",
+                "Kiran.jpg" ]
+               var names=["The family book","Archit sonawane", "Gargi sonawane", "Chitra Sonawane","Kiran Sonawane"]
+    
+               var i=1;
+               function move(){
+                   document.getElementById("Picture").src=images[i];
+                   document.getElementById("boi").innerHTML=names[i]
+                   i++;
+                   if(i == 5){
+                       i=0;
+                   }
                }
-           }
-        </script>
-    </body>
+            </script>
+        </body>
+        </center>
 </html>
